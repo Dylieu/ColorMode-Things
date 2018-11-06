@@ -1,28 +1,24 @@
 //add modern art code here
 
-size (400, 500);
+size (500, 500);
+background (255, 255, 255);
 
-long xPos = 100;
 long yPos = 100;
+long xPos = 100;
 
-strokeWeight (3);
+strokeWeight (8);
+stroke (0, 0, 0);
+fill (255, 255, 0);
+ellipse (500, 500, 500, 500);
+fill (255, 0, 0);
+rect (0, 0, 200, 300);
+fill (0, 255, 0);
+triangle (500, 0, 400, 0, 500, 100);
+line (0, 500, 500, 0);
+fill (0, 75, 255);
+ellipse (200, 150, 125, 125);
+fill (200, 75, 20);
+triangle (75, 425, 175, 425, 75, 325);
 
-line (xPos - 99, yPos - 99, 0, 500);
-line (xPos - 90, yPos - 100, 10, 500);
-
-//upper right corner
-line (xPos + 280, yPos - 100, 350, 0);
-line (xPos + 299, yPos - 80, 399, 50);
-line (xPos + 250, yPos - 100, 399, 50);
-line (xPos + 280, yPos - 100, 400, 20);
-line (xPos + 250, yPos - 70, 350, 0);
-line (xPos + 269, yPos - 50, 399, 50);
-line (xPos + 269, yPos - 50, 350, 30);
-
-line (xPos + 230, yPos - 100, 300, 0);
-line (xPos + 249, yPos - 80, 349, 50);
-line (xPos + 200, yPos - 100, 349, 50);
-line (xPos + 230, yPos - 100, 350, 20);
-line (xPos + 200, yPos - 70, 300, 0);
-line (xPos + 219, yPos - 50, 349, 50);
-line (xPos + 219, yPos - 50, 300, 30);
+line (0, 0, 500, 0);
+line (200, 300, 500, 300);
